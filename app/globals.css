@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 2, 48, 71;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Inter", sans-serif;
+}
+
+/* Custom Styles */
+.transition-colors {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+/* Vintage Racing Theme Styles */
+.vintage-text-shadow {
+  text-shadow: 2px 2px 0px rgba(251, 133, 0, 0.5);
+}
+
+.vintage-box-shadow {
+  box-shadow: 4px 4px 0px rgba(2, 48, 71, 0.5);
+}
+
+.vintage-border {
+  border: 2px solid #023047;
+}
+
+/* Section Title Style */
+.section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0d2544;
+}
+
+/* Page Title Style */
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
