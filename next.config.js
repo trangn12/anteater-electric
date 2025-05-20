@@ -10,6 +10,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basepath: '/anteater-electric',
+  assetPrefix: '/anteater-electric/',
   trailingSlash: true,
 }
 
