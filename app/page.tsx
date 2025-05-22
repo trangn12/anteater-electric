@@ -336,7 +336,7 @@ export default function Home() {
                 </div>
                 <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg vintage-box-shadow">
                   <Image
-                    src="/images/socalshootout_1.jpg?height=400&width=600&text=Students+Working"
+                    src="/images/socalshootout_sand.jpg?height=400&width=600&text=Students+Working"
                     alt="UCI FSAE students working on electric race car"
                     layout="fill"
                     objectFit="cover"
