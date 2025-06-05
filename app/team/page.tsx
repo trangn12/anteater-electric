@@ -1,119 +1,206 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Header } from "../../components/Header"
-import { Footer } from "../../components/Footer"
+import Image from "next/image";
+import Link from "next/link";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 
 const subteams = [
   {
-    name: "Suspension",
-    logo: "/placeholder.svg?height=170&width=170&text=Suspension+Logo",
+    name: "Accumulator",
+    logo: "/subteam-logos/accumulator_logo.png",
     lead: {
-      name: "Jane Doe",
-      role: "Suspension Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Jane+Doe",
-      linkedin: "https://www.linkedin.com/in/janedoe",
-    },
-    members: [
-      {
-        name: "John Smith",
-        role: "Suspension Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=John+Smith",
-        linkedin: "https://www.linkedin.com/in/johnsmith",
-      },
-      {
-        name: "Emily Johnson",
-        role: "Suspension Analyst",
-        image: "/placeholder.svg?height=300&width=300&text=Emily+Johnson",
-        linkedin: "https://www.linkedin.com/in/emilyjohnson",
-      },
-    ],
-  },
-  {
-    name: "Drivetrain",
-    logo: "/placeholder.svg?height=170&width=170&text=Drivetrain+Logo",
-    lead: {
-      name: "Michael Brown",
-      role: "Drivetrain Lead",
+      name: "Camryn Wright",
+      role: "Chief Engineer",
       image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
       linkedin: "https://www.linkedin.com/in/michaelbrown",
     },
     members: [
       {
-        name: "Sarah Lee",
-        role: "Powertrain Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
+        name: "Dylan Michaelis",
+        role: "Project Manager",
+        image: "/headshots/dylan_michaelis.jpg",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+      // {
+      //   name: "name",
+      //   role: "role",
+      //   image: "/placeholder.svg?height=300&width=300&text=David+Wang",
+      //   linkedin: "https://www.linkedin.com/in/davidwang",
+      // },
+    ],
+  },
+  {
+    name: "Aerodynamics",
+    logo: "/subteam-logos/aero_logo.png",
+    lead: {
+      name: "Adityan Vairavel",
+      role: "Aerodynamics Lead",
+      image: "/headshots/adityan_vairavel.jpg",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Manav Anand",
+        role: "Senior Aerobody Engineer",
+        image: "/headshots/manav_anand.jpg",
         linkedin: "https://www.linkedin.com/in/sarahlee",
       },
       {
-        name: "David Wang",
-        role: "Electric Motor Specialist",
+        name: "Sergei Litovchenko",
+        role: "Lead Aerodynamics Engineer",
         image: "/placeholder.svg?height=300&width=300&text=David+Wang",
         linkedin: "https://www.linkedin.com/in/davidwang",
       },
     ],
   },
   {
-    name: "Aero",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EvSHkyLp2izXbI4uEOrbpLqiUweStl.png",
+    name: "Chassis",
+    logo: "/subteam-logos/chassis_logo.png",
+    lead: {
+      name: "Tobey Wong",
+      role: "Chassis Lead",
+      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Andrew Chao",
+        role: "Chassis Lead",
+        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+      // {
+      //   name: "David Wang",
+      //   role: "Electric Motor Specialist",
+      //   image: "/placeholder.svg?height=300&width=300&text=David+Wang",
+      //   linkedin: "https://www.linkedin.com/in/davidwang",
+      // },
+    ],
+  },
+  {
+    name: "Electronics",
+    logo: "/subteam-logos/electronics_logo.png",
+    lead: {
+      name: "Gabriel Schoene",
+      role: "Lead Electrical Engineer",
+      image: "/headshots/gabriel_schoene.jpg",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Kristian",
+        role: "Electronics Lead",
+        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+    ],
+  },
+  {
+    name: "Embedded",
+    logo: "/subteam-logos/embedded_logo.png",
+    lead: {
+      name: "Esmeralda Guerra Rangel",
+      role: "Chief Electrical Engineer",
+      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Bill Yuan",
+        role: "Chief Electrical Engineer",
+        image: "/headshots/bill_yuan.jpg",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+      {
+        name: "Alistair Keiller",
+        role: "Embedded Lead",
+        image: "/headshots/alistair_keiller.jpg",
+        linkedin: "https://www.linkedin.com/in/davidwang",
+      },
+    ],
+  },
+  {
+    name: "Ergonomics",
+    logo: "/subteam-logos/ergonomics_logo.png",
+    lead: {
+      name: "Ethan Macias",
+      role: "Ergonomics Lead",
+      image: "/headshots/ethan_macias.jpg",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Athena E. Wong",
+        role: "Ergonomics Lead",
+        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+    ],
+  },
+  {
+    name: "Operations and Outreach",
+    logo: "/subteam-logos/o2_logo.png",
+    lead: {
+      name: "Melanie Nguyen",
+      role: "Operations and Outreach Lead",
+      image: "/placeholder.svg?height=300&width=300&text=Jane+Doe",
+      linkedin: "https://www.linkedin.com/in/janedoe",
+    },
+    members: [
+      {
+        name: "Nuha Khan",
+        role: "Operations and Outreach Lead",
+        image: "/headshots/nuha_khan.jpg",
+        linkedin: "https://www.linkedin.com/in/johnsmith",
+      },
+    ],
+  },
+  {
+    name: "Powertrain",
+    logo: "/subteam-logos/powertrain_logo.png",
+    lead: {
+      name: "Jonathan Leung",
+      role: "Powertrain Lead",
+      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
+      linkedin: "https://www.linkedin.com/in/michaelbrown",
+    },
+    members: [
+      {
+        name: "Chris Mou",
+        role: "Powertrain Lead",
+        image: "/headshots/chris_mou.png",
+        linkedin: "https://www.linkedin.com/in/sarahlee",
+      },
+    ],
+  },
+  {
+    name: "Suspension",
+    logo: "/subteam-logos/suspension_logo.png",
     logoPosition: "0 0 341 341",
     lead: {
-      name: "Alex Johnson",
-      role: "Aero Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Alex+Johnson",
+      name: "Vikram Repalle",
+      role: "Suspension Lead",
+      image: "/headshots/vikram_repalle.jpg",
       linkedin: "https://www.linkedin.com/in/alexjohnson",
     },
     members: [
-      {
-        name: "Emma Davis",
-        role: "CFD Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=Emma+Davis",
-        linkedin: "https://www.linkedin.com/in/emmadavis",
-      },
+      // {
+      //   name: "Emma Davis",
+      //   role: "CFD Engineer",
+      //   image: "/placeholder.svg?height=300&width=300&text=Emma+Davis",
+      //   linkedin: "https://www.linkedin.com/in/emmadavis",
+      // },
     ],
   },
-  {
-    name: "Chassis",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EvSHkyLp2izXbI4uEOrbpLqiUweStl.png",
-    logoPosition: "341 0 682 341",
-    lead: {
-      name: "Chris Wilson",
-      role: "Chassis Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Chris+Wilson",
-      linkedin: "https://www.linkedin.com/in/chriswilson",
-    },
-    members: [
-      {
-        name: "Tom Harris",
-        role: "Structural Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=Tom+Harris",
-        linkedin: "https://www.linkedin.com/in/tomharris",
-      },
-    ],
-  },
-  {
-    name: "Electrical",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EvSHkyLp2izXbI4uEOrbpLqiUweStl.png",
-    logoPosition: "682 0 1023 341",
-    lead: {
-      name: "Lisa Chen",
-      role: "Electrical Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Lisa+Chen",
-      linkedin: "https://www.linkedin.com/in/lisachen",
-    },
-    members: [
-      {
-        name: "Mark Thompson",
-        role: "Power Systems Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=Mark+Thompson",
-        linkedin: "https://www.linkedin.com/in/markthompson",
-      },
-    ],
-  },
-]
+];
 
 function MemberCard({ name, role, image, linkedin }) {
   return (
-    <Link href={linkedin} target="_blank" rel="noopener noreferrer" className="group">
+    <Link
+      href={linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group"
+    >
       <div className="bg-vintage-white rounded-lg shadow-md overflow-hidden transition-transform group-hover:scale-105 vintage-box-shadow">
         <div className="relative h-48 w-full">
           <Image
@@ -130,7 +217,7 @@ function MemberCard({ name, role, image, linkedin }) {
         </div>
       </div>
     </Link>
-  )
+  );
 }
 
 export default function TeamPage() {
@@ -140,7 +227,9 @@ export default function TeamPage() {
       <main className="flex-grow pt-16">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
-            <h1 className="section-title text-4xl font-bold text-center mb-12">OUR TEAM</h1>
+            <h1 className="section-title text-4xl font-bold text-center mb-12">
+              OUR TEAM
+            </h1>
             {subteams.map((subteam) => (
               <div key={subteam.name} className="mb-16">
                 <div className="flex items-center gap-4 mb-8">
@@ -161,7 +250,9 @@ export default function TeamPage() {
                       />
                     )}
                   </div>
-                  <h2 className="section-title text-3xl font-bold">{subteam.name.toUpperCase()} TEAM</h2>
+                  <h2 className="section-title text-3xl font-bold">
+                    {subteam.name.toUpperCase()} TEAM
+                  </h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   <MemberCard {...subteam.lead} />
@@ -176,5 +267,5 @@ export default function TeamPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

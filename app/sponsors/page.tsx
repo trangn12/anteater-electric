@@ -1,9 +1,21 @@
-import Image from "next/image"
-import { Header } from "../../components/Header"
-import { Footer } from "../../components/Footer"
-import { Trophy, Award, Medal, Check } from "lucide-react"
+import Image from "next/image";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
+import { Trophy, Award, Medal, Check } from "lucide-react";
 
 const sponsorTiers = [
+  {
+    name: "Title",
+    icon: Trophy,
+    amount: "$10,000+",
+    benefits: [
+      "Choice of logo size and placement on car",
+      "Featured on website",
+      "Team merchandise",
+      "Social media promotion",
+      "VIP invitation to racing events",
+    ],
+  },
   {
     name: "Platinum",
     icon: Trophy,
@@ -20,23 +32,58 @@ const sponsorTiers = [
     name: "Gold",
     icon: Award,
     amount: "$2,500+",
-    benefits: ["Medium logo on car", "Logo on website", "Team merchandise", "Social media mention"],
+    benefits: [
+      "Medium logo on car",
+      "Logo on website",
+      "Team merchandise",
+      "Social media mention",
+    ],
   },
   {
     name: "Silver",
     icon: Medal,
     amount: "$1,000+",
-    benefits: ["Small logo on car", "Name on website", "Social media mention"],
+    benefits: ["Medium logo on car", "Name on website", "Social media mention"],
   },
-]
+];
 
 const currentSponsors = [
-  { name: "TechCorp", tier: "Platinum", logo: "/placeholder.svg?height=100&width=200&text=TechCorp" },
-  { name: "InnovateNow", tier: "Gold", logo: "/placeholder.svg?height=100&width=200&text=InnovateNow" },
-  { name: "FutureDrive", tier: "Gold", logo: "/placeholder.svg?height=100&width=200&text=FutureDrive" },
-  { name: "ElectroMotion", tier: "Silver", logo: "/placeholder.svg?height=100&width=200&text=ElectroMotion" },
-  { name: "SpeedTech", tier: "Silver", logo: "/placeholder.svg?height=100&width=200&text=SpeedTech" },
-]
+  {
+    name: "Perficient",
+    tier: "Partner",
+    logo: "/placeholder.svg?height=100&width=200&text=Perficient",
+  },
+  {
+    name: "Murata Electronics",
+    tier: "Partner",
+    logo: "/placeholder.svg?height=100&width=200&text=MuarataElectronics",
+  },
+  {
+    name: "SentCutSend",
+    tier: "Partner",
+    logo: "/placeholder.svg?height=100&width=200&text=SentCutSend",
+  },
+  {
+    name: "Parker Lord",
+    tier: "Platinum",
+    logo: "/placeholder.svg?height=100&width=200&text=ParkerLord",
+  },
+  {
+    name: "Parker Hannifin",
+    tier: "Gold",
+    logo: "/placeholder.svg?height=100&width=200&text=ParkerHannifin",
+  },
+  {
+    name: "PEC Tools",
+    tier: "Silver",
+    logo: "/placeholder.svg?height=100&width=200&text=PECTools",
+  },
+  {
+    name: "Osh Cut",
+    tier: "Silver",
+    logo: "/placeholder.svg?height=100&width=200&text=OshCut",
+  },
+];
 
 export default function SponsorsPage() {
   return (
@@ -46,7 +93,7 @@ export default function SponsorsPage() {
         {/* Hero Section */}
         <section className="relative h-[50vh] bg-black">
           <Image
-            src="/placeholder.svg?height=1080&width=1920&text=UCI+FSAE+Sponsors"
+            src="/images/staring_crop.jpg"
             alt="UCI FSAE Sponsors"
             layout="fill"
             objectFit="cover"
@@ -55,8 +102,12 @@ export default function SponsorsPage() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-vintage-white">
-              <h1 className="section-title text-4xl md:text-5xl font-bold mb-4">OUR SPONSORS</h1>
-              <p className="text-xl md:text-2xl">Powering Innovation in Electric Racing</p>
+              <h1 className="section-title text-4xl md:text-5xl font-bold mb-4">
+                OUR SPONSORS
+              </h1>
+              <p className="text-xl md:text-2xl">
+                Powering Innovation in Electric Racing
+              </p>
             </div>
           </div>
         </section>
@@ -64,18 +115,30 @@ export default function SponsorsPage() {
         {/* Sponsorship Tiers */}
         <section className="py-16 bg-vintage-white">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold text-center mb-12">SPONSORSHIP OPPORTUNITIES</h2>
+            <h2 className="section-title text-3xl font-bold text-center mb-12">
+              SPONSORSHIP OPPORTUNITIES
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {sponsorTiers.map((tier) => (
-                <div key={tier.name} className="bg-vintage-lightgray rounded-lg shadow-md p-6 vintage-box-shadow">
+                <div
+                  key={tier.name}
+                  className="bg-vintage-lightgray rounded-lg shadow-md p-6 vintage-box-shadow"
+                >
                   <div className="flex items-center justify-center mb-4">
                     <tier.icon className="w-12 h-12 text-vintage-orange" />
                   </div>
-                  <h3 className="text-2xl font-bold text-center mb-2 text-vintage-navy">{tier.name}</h3>
-                  <p className="text-xl text-center text-vintage-orange mb-4">{tier.amount}</p>
+                  <h3 className="text-2xl font-bold text-center mb-2 text-vintage-navy">
+                    {tier.name}
+                  </h3>
+                  <p className="text-xl text-center text-vintage-orange mb-4">
+                    {tier.amount}
+                  </p>
                   <ul className="space-y-2">
                     {tier.benefits.map((benefit, index) => (
-                      <li key={index} className="flex items-center text-vintage-navy">
+                      <li
+                        key={index}
+                        className="flex items-center text-vintage-navy"
+                      >
                         <Check className="w-5 h-5 text-vintage-orange mr-2" />
                         <span>{benefit}</span>
                       </li>
@@ -90,7 +153,9 @@ export default function SponsorsPage() {
         {/* Current Sponsors */}
         <section className="py-16 bg-vintage-lightgray">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold text-center mb-12">OUR CURRENT SPONSORS</h2>
+            <h2 className="section-title text-3xl font-bold text-center mb-12">
+              OUR CURRENT SPONSORS
+            </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
               {currentSponsors.map((sponsor) => (
                 <div key={sponsor.name} className="flex flex-col items-center">
@@ -103,8 +168,12 @@ export default function SponsorsPage() {
                       className="mb-2"
                     />
                   </div>
-                  <p className="font-semibold text-vintage-navy">{sponsor.name}</p>
-                  <p className="text-sm text-vintage-orange">{sponsor.tier} Sponsor</p>
+                  <p className="font-semibold text-vintage-navy">
+                    {sponsor.name}
+                  </p>
+                  <p className="text-sm text-vintage-orange">
+                    {sponsor.tier} Sponsor
+                  </p>
                 </div>
               ))}
             </div>
@@ -114,10 +183,13 @@ export default function SponsorsPage() {
         {/* Become a Sponsor CTA */}
         <section className="py-16 bg-[#f5f5f5] text-black">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="section-title text-3xl font-bold mb-6">BECOME A SPONSOR</h2>
+            <h2 className="section-title text-3xl font-bold mb-6">
+              BECOME A SPONSOR
+            </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Join us in shaping the future of electric racing technology. Your support can make a significant impact on
-              our team's success and the development of sustainable motorsports.
+              Join us in shaping the future of electric racing technology. Your
+              support can make a significant impact on our team's success and
+              the development of sustainable motorsports.
             </p>
             <a
               href="/contact"
@@ -130,5 +202,5 @@ export default function SponsorsPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

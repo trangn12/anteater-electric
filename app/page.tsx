@@ -14,6 +14,17 @@ import {
 
 const sponsorTiers = [
   {
+    name: "Title",
+    amount: "$10,000+",
+    benefits: [
+      "Choice of logo size and placement on car",
+      "Featured on website",
+      "Team merchandise",
+      "Social media promotion",
+      "VIP invitation to racing events",
+    ],
+  },
+  {
     name: "Platinum",
     amount: "$5,000+",
     benefits: [
@@ -21,7 +32,7 @@ const sponsorTiers = [
       "Featured on website",
       "Team merchandise",
       "Social media promotion",
-      "Event invitations",
+      "VIP invitation to racing events",
     ],
   },
   {
@@ -29,7 +40,7 @@ const sponsorTiers = [
     amount: "$2,500+",
     benefits: [
       "Medium logo on car",
-      "Website recognition",
+      "Logo on website",
       "Team merchandise",
       "Social media mention",
     ],
@@ -37,11 +48,7 @@ const sponsorTiers = [
   {
     name: "Silver",
     amount: "$1,000+",
-    benefits: [
-      "Small logo on car",
-      "Website recognition",
-      "Social media mention",
-    ],
+    benefits: ["Medium logo on car", "Name on website", "Social media mention"],
   },
 ];
 
