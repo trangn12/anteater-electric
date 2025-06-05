@@ -49,39 +49,44 @@ const sponsorTiers = [
 
 const currentSponsors = [
   {
+    name: "Welsh Advisors",
+    tier: "Title",
+    logo: "/sponsor-logos/welshadvisors_logo.png",
+  },
+  {
     name: "Perficient",
     tier: "Partner",
-    logo: "/placeholder.svg?height=100&width=200&text=Perficient",
+    logo: "/sponsor-logos/perficient_logo.jpg",
   },
   {
     name: "Murata Electronics",
     tier: "Partner",
-    logo: "/placeholder.svg?height=100&width=200&text=MuarataElectronics",
+    logo: "/sponsor-logos/murataelectronics_logo.png",
   },
   {
-    name: "SentCutSend",
+    name: "SendCutSend",
     tier: "Partner",
-    logo: "/placeholder.svg?height=100&width=200&text=SentCutSend",
+    logo: "/sponsor-logos/sendcutsend_logo.png",
   },
   {
     name: "Parker Lord",
     tier: "Platinum",
-    logo: "/placeholder.svg?height=100&width=200&text=ParkerLord",
+    logo: "/sponsor-logos/parkerlord_logo.png",
   },
   {
     name: "Parker Hannifin",
     tier: "Gold",
-    logo: "/placeholder.svg?height=100&width=200&text=ParkerHannifin",
+    logo: "/sponsor-logos/parkerhannifin_logo.png",
   },
   {
     name: "PEC Tools",
     tier: "Silver",
-    logo: "/placeholder.svg?height=100&width=200&text=PECTools",
+    logo: "/sponsor-logos/pectools_logo.jpeg",
   },
   {
     name: "Osh Cut",
     tier: "Silver",
-    logo: "/placeholder.svg?height=100&width=200&text=OshCut",
+    logo: "/sponsor-logos/oshcut_logo.png",
   },
 ];
 
