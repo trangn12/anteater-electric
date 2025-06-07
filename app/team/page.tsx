@@ -6,19 +6,19 @@ import { Footer } from "../../components/Footer";
 const subteams = [
   {
     name: "Accumulator",
-    logo: "/subteam-logos/accumulator_logo.png",
+    logo: "/subteam-logos/accumulator_patch.png",
     lead: {
       name: "Camryn Wright",
       role: "Chief Engineer",
-      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      image: "/headshots/camryn_wright.jpg",
+      linkedin: "http://www.linkedin.com/in/camryn-wright/",
     },
     members: [
       {
         name: "Dylan Michaelis",
         role: "Project Manager",
         image: "/headshots/dylan_michaelis.jpg",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        linkedin: "https://www.linkedin.com/in/dylanjmichaelis/",
       },
       // {
       //   name: "name",
@@ -30,43 +30,43 @@ const subteams = [
   },
   {
     name: "Aerodynamics",
-    logo: "/subteam-logos/aero_logo.png",
+    logo: "/subteam-logos/aero_patch.png",
     lead: {
       name: "Adityan Vairavel",
       role: "Aerodynamics Lead",
       image: "/headshots/adityan_vairavel.jpg",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      linkedin: "https://www.linkedin.com/in/adityan-v/",
     },
     members: [
       {
         name: "Manav Anand",
         role: "Senior Aerobody Engineer",
         image: "/headshots/manav_anand.jpg",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        linkedin: "https://www.linkedin.com/in/manand222/",
       },
       {
         name: "Sergei Litovchenko",
         role: "Lead Aerodynamics Engineer",
-        image: "/placeholder.svg?height=300&width=300&text=David+Wang",
-        linkedin: "https://www.linkedin.com/in/davidwang",
+        image: "/headshots/sergei_litovchenko.jpg",
+        linkedin: "https://www.linkedin.com/in/sergeil/",
       },
     ],
   },
   {
     name: "Chassis",
-    logo: "/subteam-logos/chassis_logo.png",
+    logo: "/subteam-logos/chassis_patch.png",
     lead: {
       name: "Tobey Wong",
       role: "Chassis Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
+      image: "/placeholder.svg",
       linkedin: "https://www.linkedin.com/in/michaelbrown",
     },
     members: [
       {
         name: "Andrew Chao",
         role: "Chassis Lead",
-        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        image: "/headshots/andrew_chao.jpg",
+        linkedin: "https://www.linkedin.com/in/andrewychao/",
       },
       // {
       //   name: "David Wang",
@@ -78,7 +78,7 @@ const subteams = [
   },
   {
     name: "Electronics",
-    logo: "/subteam-logos/electronics_logo.png",
+    logo: "/subteam-logos/electronics_patch.png",
     lead: {
       name: "Gabriel Schoene",
       role: "Lead Electrical Engineer",
@@ -87,100 +87,101 @@ const subteams = [
     },
     members: [
       {
-        name: "Kristian",
+        name: "Kristian Okimura",
         role: "Electronics Lead",
-        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        image: "/headshots/kristian_okimura.jpg",
+        linkedin: "https://www.linkedin.com/in/kristianokimura/",
       },
     ],
   },
   {
     name: "Embedded",
-    logo: "/subteam-logos/embedded_logo.png",
+    logo: "/subteam-logos/embedded_patch.png",
     lead: {
       name: "Esmeralda Guerra Rangel",
       role: "Chief Electrical Engineer",
-      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      image: "/headshots/esmeralda_rangel.jpg",
+      linkedin:
+        "https://www.linkedin.com/in/esmeralda-guerra-rangel-b2133a1b7/",
     },
     members: [
       {
         name: "Bill Yuan",
         role: "Chief Electrical Engineer",
         image: "/headshots/bill_yuan.jpg",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        linkedin: "https://www.linkedin.com/in/bill-yuan/",
       },
       {
         name: "Alistair Keiller",
         role: "Embedded Lead",
         image: "/headshots/alistair_keiller.jpg",
-        linkedin: "https://www.linkedin.com/in/davidwang",
+        linkedin: "https://www.linkedin.com/in/akeiller/",
       },
     ],
   },
   {
     name: "Ergonomics",
-    logo: "/subteam-logos/ergonomics_logo.png",
+    logo: "/subteam-logos/ergo_patch.png",
     lead: {
       name: "Ethan Macias",
       role: "Ergonomics Lead",
       image: "/headshots/ethan_macias.jpg",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      linkedin: "https://www.linkedin.com/in/ethan-macias-5b47112b1/",
     },
     members: [
       {
         name: "Athena E. Wong",
         role: "Ergonomics Lead",
         image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        linkedin: "https://www.linkedin.com/in/athena-wong-100percent/",
       },
     ],
   },
   {
     name: "Operations and Outreach",
-    logo: "/subteam-logos/o2_logo.png",
+    logo: "/subteam-logos/o2_patch.png",
     lead: {
       name: "Melanie Nguyen",
       role: "Operations and Outreach Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Jane+Doe",
-      linkedin: "https://www.linkedin.com/in/janedoe",
+      image: "/headshots/melanie_nguyen.jpg",
+      linkedin: "https://www.linkedin.com/in/melanie-nguyen25/",
     },
     members: [
       {
         name: "Nuha Khan",
         role: "Operations and Outreach Lead",
         image: "/headshots/nuha_khan.jpg",
-        linkedin: "https://www.linkedin.com/in/johnsmith",
+        linkedin: "https://www.linkedin.com/in/nuhakhan24/",
       },
     ],
   },
   {
     name: "Powertrain",
-    logo: "/subteam-logos/powertrain_logo.png",
+    logo: "/subteam-logos/powertrain_patch.png",
     lead: {
       name: "Jonathan Leung",
       role: "Powertrain Lead",
-      image: "/placeholder.svg?height=300&width=300&text=Michael+Brown",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
+      image: "/headshots/jonathan_leung.jpg",
+      linkedin: "https://www.linkedin.com/in/jt-leung/",
     },
     members: [
       {
         name: "Chris Mou",
         role: "Powertrain Lead",
         image: "/headshots/chris_mou.png",
-        linkedin: "https://www.linkedin.com/in/sarahlee",
+        linkedin: "https://www.linkedin.com/in/chris-j-mou/",
       },
     ],
   },
   {
     name: "Suspension",
-    logo: "/subteam-logos/suspension_logo.png",
+    logo: "/subteam-logos/suspension_patch.png",
     logoPosition: "0 0 341 341",
     lead: {
       name: "Vikram Repalle",
       role: "Suspension Lead",
       image: "/headshots/vikram_repalle.jpg",
-      linkedin: "https://www.linkedin.com/in/alexjohnson",
+      linkedin: "https://www.linkedin.com/in/vikram-repalle-9744bb291/",
     },
     members: [
       // {
