@@ -58,7 +58,7 @@ const subteams = [
     lead: {
       name: "Tobey Wong",
       role: "Chassis Lead",
-      image: "/placeholder.svg",
+      image: "/headshots/tobey_wong.jpg",
       linkedin: "https://www.linkedin.com/in/michaelbrown",
     },
     members: [
