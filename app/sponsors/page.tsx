@@ -10,10 +10,12 @@ const sponsorTiers = [
     amount: "$10,000+",
     benefits: [
       "Choice of logo size and placement on car",
-      "Featured on website",
-      "Team merchandise",
+      "Collaboration with designers on livery for car",
+      "Invitation to lab and design fair",
+      "Resume database access",
+      "Logo on team wear",
       "Social media promotion",
-      "VIP invitation to racing events",
+      "Featured on website",
     ],
   },
   {
@@ -21,29 +23,46 @@ const sponsorTiers = [
     icon: Trophy,
     amount: "$5,000+",
     benefits: [
-      "Large logo on car",
-      "Featured on website",
-      "Team merchandise",
+      "Extra large logo on car",
+      "Invitation to lab and design fair",
+      "Resume database access",
+      "Logo on team wear",
       "Social media promotion",
-      "VIP invitation to racing events",
+      "Featured on website",
     ],
   },
   {
     name: "Gold",
-    icon: Award,
-    amount: "$2,500+",
+    icon: Trophy,
+    amount: "$3,500+",
     benefits: [
-      "Medium logo on car",
-      "Logo on website",
-      "Team merchandise",
-      "Social media mention",
+      "Large logo on car",
+      "Resume database access",
+      "Logo on team wear",
+      "Social media promotion",
+      "Featured on website",
     ],
   },
   {
     name: "Silver",
-    icon: Medal,
+    icon: Trophy,
+    amount: "$2,000+",
+    benefits: [
+      "Medium logo on car",
+      "Logo on team wear",
+      "Social media promotion",
+      "Featured on website",
+    ],
+  },
+  {
+    name: "Partner",
+    icon: Trophy,
     amount: "$1,000+",
-    benefits: ["Medium logo on car", "Name on website", "Social media mention"],
+    benefits: [
+      "Small logo on car",
+      "Social media promotion",
+      "Featured on website",
+    ],
   },
 ];
 
@@ -52,21 +71,6 @@ const currentSponsors = [
     name: "Welsh Advisors",
     tier: "Title",
     logo: "/sponsor-logos/welshadvisors_logo.png",
-  },
-  {
-    name: "Perficient",
-    tier: "Partner",
-    logo: "/sponsor-logos/perficient_logo.jpg",
-  },
-  {
-    name: "Murata Electronics",
-    tier: "Partner",
-    logo: "/sponsor-logos/murataelectronics_logo.png",
-  },
-  {
-    name: "SendCutSend",
-    tier: "Partner",
-    logo: "/sponsor-logos/sendcutsend_logo.png",
   },
   {
     name: "Parker Lord",
@@ -87,6 +91,21 @@ const currentSponsors = [
     name: "Osh Cut",
     tier: "Silver",
     logo: "/sponsor-logos/oshcut_logo.png",
+  },
+  {
+    name: "Perficient",
+    tier: "Partner",
+    logo: "/sponsor-logos/perficient_logo.jpg",
+  },
+  {
+    name: "Murata Electronics",
+    tier: "Partner",
+    logo: "/sponsor-logos/murataelectronics_logo.png",
+  },
+  {
+    name: "SendCutSend",
+    tier: "Partner",
+    logo: "/sponsor-logos/sendcutsend_logo.png",
   },
 ];
 
