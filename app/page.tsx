@@ -115,7 +115,7 @@ export default function Home() {
           <div className="relative container mx-auto px-4 h-full flex items-center">
             <div className="max-w-3xl text-vintage-white space-y-6">
               <h1 className="section-title text-5xl font-bold mb-4">
-                UCI FORMULA SAE
+                UCI FORMULA SAE ELECTRIC
               </h1>
               <p className="text-xl leading-relaxed">
                 Join us, a dedicated team of Henry Samueli School of Engineering
