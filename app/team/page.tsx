@@ -80,24 +80,6 @@ const subteams = [
     name: "Electronics",
     logo: "/subteam-logos/electronics_patch.png",
     lead: {
-      name: "Gabriel Schoene",
-      role: "Lead Electrical Engineer",
-      image: "/headshots/gabriel_schoene.jpg",
-      linkedin: "https://www.linkedin.com/in/michaelbrown",
-    },
-    members: [
-      {
-        name: "Kristian Okimura",
-        role: "Electronics Lead",
-        image: "/headshots/kristian_okimura.jpg",
-        linkedin: "https://www.linkedin.com/in/kristianokimura/",
-      },
-    ],
-  },
-  {
-    name: "Embedded",
-    logo: "/subteam-logos/embedded_patch.png",
-    lead: {
       name: "Esmeralda Guerra Rangel",
       role: "Chief Electrical Engineer",
       image: "/headshots/esmeralda_rangel.jpg",
@@ -106,11 +88,29 @@ const subteams = [
     },
     members: [
       {
-        name: "Bill Yuan",
-        role: "Chief Electrical Engineer",
-        image: "/headshots/bill_yuan.jpg",
-        linkedin: "https://www.linkedin.com/in/bill-yuan/",
+        name: "Kristian Okimura",
+        role: "Electronics Lead",
+        image: "/headshots/kristian_okimura.jpg",
+        linkedin: "https://www.linkedin.com/in/kristianokimura/",
       },
+      {
+        name: "Gabriel Schoene",
+        role: "Lead Electrical Engineer",
+        image: "/headshots/gabriel_schoene.jpg",
+        linkedin: "https://www.linkedin.com/in/michaelbrown",
+      },
+    ],
+  },
+  {
+    name: "Embedded",
+    logo: "/subteam-logos/embedded_patch.png",
+    lead: {
+      name: "Bill Yuan",
+      role: "Chief Electrical Engineer",
+      image: "/headshots/bill_yuan.jpg",
+      linkedin: "https://www.linkedin.com/in/bill-yuan/",
+    },
+    members: [
       {
         name: "Alistair Keiller",
         role: "Embedded Lead",
