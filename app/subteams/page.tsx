@@ -121,7 +121,7 @@ const subteamDetails = [
       "The Ergonomics subteam is responsible for the design, manufacturing, testing, and complete documentation of the EV's brake system, pedal assemblies, driver seat, seatbelt harness, and steering system. This subsystem's assembly designs promote functionality, driver safety, ergonomics, conditions, and ensure the driver and all engineers are aware of various vehicle inputs and ease of serviceability. Importantly, Ergonomics is responsible for driver safety in all outputs.",
     image: "/subteam-photos/ergo_photo.jpg",
     alignment: "right",
-    logo: "/subteam-logos/o2_patch.png",
+    logo: "/subteam-logos/ergo_patch.png",
     // logoPosition: "682 0 1023 341",
   },
   {

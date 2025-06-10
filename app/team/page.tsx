@@ -132,7 +132,7 @@ const subteams = [
       {
         name: "Athena E. Wong",
         role: "Ergonomics Lead",
-        image: "/placeholder.svg?height=300&width=300&text=Sarah+Lee",
+        image: "/headshots/athena_wong.jpg",
         linkedin: "https://www.linkedin.com/in/athena-wong-100percent/",
       },
     ],
