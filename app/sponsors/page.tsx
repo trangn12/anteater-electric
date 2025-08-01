@@ -107,6 +107,11 @@ const currentSponsors = [
     tier: "Partner",
     logo: "/sponsor-logos/sendcutsend_logo.png",
   },
+  {
+    name: "Aluminum Cabinets",
+    tier: "",
+    logo: "/sponsor-logos/modulinecabinets_logo.jpg",
+  },
 ];
 
 export default function SponsorsPage() {

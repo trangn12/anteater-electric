@@ -97,6 +97,32 @@ const studentBenefits = [
 ];
 
 export default function Home() {
+  const newsItems = [
+    {
+      id: 1,
+      title: "Exciting Development 1",
+      description:
+        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+      image: "/placeholder-news.png",
+      link: "/news/chassis-update",
+    },
+    {
+      id: 2,
+      title: "Exciting Development 2",
+      description:
+        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+      image: "/placeholder-news.png",
+      link: "/news/electrical-integration",
+    },
+    {
+      id: 3,
+      title: "Exciting Development 3",
+      description:
+        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+      image: "/placeholder-news.png",
+      link: "/news/testing-begins",
+    },
+  ];
   return (
     <div className="flex flex-col min-h-screen bg-vintage-white">
       <Header />
@@ -224,29 +250,25 @@ export default function Home() {
               LATEST NEWS
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[1, 2, 3].map((i) => (
+              {newsItems.map((item) => (
                 <div
-                  key={i}
+                  key={item.id}
                   className="bg-vintage-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105 vintage-box-shadow"
                 >
                   <Image
-                    src={`/placeholder-news.png?height=200&width=400&text=News+${i}`}
-                    alt={`News ${i}`}
+                    src={item.image}
+                    alt={item.title}
                     width={400}
                     height={200}
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-vintage-navy mb-2">
-                      Exciting Development {i}
+                      {item.title}
                     </h3>
-                    <p className="text-vintage-navy mb-4">
-                      Our team has made significant progress in the design and
-                      construction of our latest racing vehicle. Stay tuned for
-                      more updates!
-                    </p>
+                    <p className="text-vintage-navy mb-4">{item.description}</p>
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-vintage-orange hover:text-vintage-red transition-colors"
                     >
                       Read More →
