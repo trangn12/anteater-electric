@@ -73,14 +73,24 @@ const currentSponsors = [
     logo: "/sponsor-logos/welshadvisors_logo.png",
   },
   {
-    name: "Parker Lord",
+    name: "Parker",
     tier: "Platinum",
-    logo: "/sponsor-logos/parkerlord_logo.png",
+    logo: "/sponsor-logos/parkerhannifin_logo.png",
   },
   {
-    name: "Parker Hannifin",
+    name: "Airtech",
+    tier: "Platinum",
+    logo: "/sponsor-logos/airtech_logo.jpg",
+  },
+  {
+    name: "Composites One",
+    tier: "Platinum",
+    logo: "/sponsor-logos/compositesone_logo.png",
+  },
+  {
+    name: "Evonik",
     tier: "Gold",
-    logo: "/sponsor-logos/parkerhannifin_logo.png",
+    logo: "/sponsor-logos/evonik_logo.png",
   },
   {
     name: "PEC Tools",
@@ -91,6 +101,21 @@ const currentSponsors = [
     name: "Osh Cut",
     tier: "Silver",
     logo: "/sponsor-logos/oshcut_logo.png",
+  },
+  {
+    name: "ACP Composites",
+    tier: "Silver",
+    logo: "/sponsor-logos/acpcomposites_logo.png",
+  },
+  {
+    name: "Coastal Enterprises",
+    tier: "Silver",
+    logo: "/sponsor-logos/coastalenterprisesprecisionboard_logo.png",
+  },
+  {
+    name: "Textile Products Inc.",
+    tier: "Silver",
+    logo: "/sponsor-logos/textileproductsinc_logo.png",
   },
   {
     name: "Perficient",
@@ -108,9 +133,9 @@ const currentSponsors = [
     logo: "/sponsor-logos/sendcutsend_logo.png",
   },
   {
-    name: "Aluminum Cabinets",
-    tier: "",
-    logo: "/sponsor-logos/modulinecabinets_logo.jpg",
+    name: "Performance Composites",
+    tier: "Partner",
+    logo: "/sponsor-logos/performancecomposites_logo.png",
   },
 ];
 

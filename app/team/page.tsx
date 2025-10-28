@@ -97,7 +97,7 @@ const subteams = [
         name: "Gabriel Schoene",
         role: "Lead Electrical Engineer",
         image: "/headshots/gabriel_schoene.jpg",
-        linkedin: "https://www.linkedin.com/in/michaelbrown",
+        linkedin: "https://www.linkedin.com/in/gabriel-schoene-228438294",
       },
     ],
   },
