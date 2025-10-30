@@ -2,10 +2,8 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import {
   MapPin,
-  Phone,
+  // Phone,
   Mail,
-  Facebook,
-  Twitter,
   Instagram,
   Linkedin,
 } from "lucide-react";
@@ -20,7 +18,7 @@ export default function ContactPage() {
         <section className="relative h-[50vh] bg-black">
           <Image
             src="/images/socalshootout_carempty_crop.jpg"
-            alt="Contact UCI FSAE"
+            alt="Contact UCI FSAE Electric"
             layout="fill"
             objectFit="cover"
             className="opacity-70"
@@ -132,18 +130,20 @@ export default function ContactPage() {
                       <p className="text-vintage-navy">Irvine, CA 92697</p>
                     </div>
                   </div>
-                  <div className="flex items-center">
+                  {/* <div className="flex items-center">
                     <Phone className="w-6 h-6 text-vintage-orange mr-4" />
                     <div>
                       <h3 className="font-semibold text-vintage-navy">Phone</h3>
                       <p className="text-vintage-navy">(949) 824-5011</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="flex items-center">
                     <Mail className="w-6 h-6 text-vintage-orange mr-4" />
                     <div>
                       <h3 className="font-semibold text-vintage-navy">Email</h3>
-                      <p className="text-vintage-navy">ucifsae@uci.edu</p>
+                      <p className="text-vintage-navy">
+                        electric.anteaterracing@gmail.com
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -153,25 +153,13 @@ export default function ContactPage() {
                 </h2>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
-                    className="text-vintage-orange hover:text-vintage-red transition-colors"
-                  >
-                    <Facebook className="w-6 h-6" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-vintage-orange hover:text-vintage-red transition-colors"
-                  >
-                    <Twitter className="w-6 h-6" />
-                  </a>
-                  <a
-                    href="#"
+                    href="https://www.instagram.com/anteaterelectricracing?igsh=NTc4MTIwNjQ2YQ=="
                     className="text-vintage-orange hover:text-vintage-red transition-colors"
                   >
                     <Instagram className="w-6 h-6" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/anteater-electric-racing-5871942b7/"
                     className="text-vintage-orange hover:text-vintage-red transition-colors"
                   >
                     <Linkedin className="w-6 h-6" />
