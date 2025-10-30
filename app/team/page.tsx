@@ -9,7 +9,7 @@ const subteams = [
     logo: "/subteam-logos/accumulator_patch.png",
     lead: {
       name: "Camryn Wright",
-      role: "Chief Mechanical Engineer, Accumulator Lead",
+      role: "Chief Engineer, Accumulator Lead",
       image: "/headshots/camryn_wright.jpg",
       linkedin: "http://www.linkedin.com/in/camryn-wright/",
     },
@@ -58,15 +58,16 @@ const subteams = [
     members: [
       {
         name: "Bochin Tong",
-        role: "Assistant Lead",
-        image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/johndoe",
+        role: "Chassis Co-Lead",
+        image: "/headshots/bochin_tong.jpg",
+        linkedin:
+          "https://www.linkedin.com/in/bochintong?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
       },
       {
         name: "Akil Nafi",
-        role: "Assistant Lead",
-        image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/johndoe",
+        role: "Chassis Co-Lead",
+        image: "/headshots/akil_nafi.jpg",
+        linkedin: "https://www.linkedin.com/in/akil-nafi/",
       },
     ],
   },
@@ -133,22 +134,21 @@ const subteams = [
     lead: {
       name: "Natalie Perrochon",
       role: "EE Project Manager",
-      image: "/placeholder.svg",
-      linkedin:
-        "https://www.linkedin.com/in/esmeralda-guerra-rangel-b2133a1b7/",
+      image: "/headshots/natalie_perrochon.png",
+      linkedin: "https://www.linkedin.com/in/natalie-perrochon/",
     },
     members: [
       {
         name: "Karan Thakkar",
         role: "Embedded Lead - Firmware",
         image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/akeiller/",
+        linkedin: "https://www.linkedin.com/in/johndoe/",
       },
       {
         name: "Alistair Keiller",
         role: "Embedded Lead - Data",
         image: "/headshots/alistair_keiller.jpg",
-        linkedin: "https://www.linkedin.com/in/johndoe/",
+        linkedin: "https://www.linkedin.com/in/akeiller/",
       },
     ],
   },
@@ -218,7 +218,7 @@ function MemberCard({ name, role, image, linkedin }) {
       className="group"
     >
       <div className="bg-vintage-white rounded-lg shadow-md overflow-hidden transition-transform group-hover:scale-105 vintage-box-shadow">
-        <div className="relative h-48 w-full">
+        <div className="relative h-60 w-full">
           <Image
             src={image || "/placeholder.svg"}
             alt={name}
@@ -270,7 +270,7 @@ export default function TeamPage() {
                     {subteam.name.toUpperCase()} TEAM
                   </h2>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                   <MemberCard {...subteam.lead} />
                   {subteam.members.map((member) => (
                     <MemberCard key={member.name} {...member} />
