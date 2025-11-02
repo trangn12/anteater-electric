@@ -165,14 +165,14 @@ const subteams = [
       {
         name: "Meera Sambhwani",
         role: "Ergonomics Co-Lead",
-        image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/johndoe",
+        image: "/headshots/meera_sambhwani.png",
+        linkedin: "https://www.linkedin.com/in/meera-sambhwani-a95bb0256/",
       },
       {
         name: "Katie Schmitz",
         role: "Ergonomics Co-Lead",
-        image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/johndoe",
+        image: "/headshots/katie_schmitz.jpg",
+        linkedin: "https://www.linkedin.com/in/katie-schmitz-893308331/",
       },
     ],
   },
