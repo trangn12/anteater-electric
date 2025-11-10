@@ -141,7 +141,7 @@ const subteams = [
       {
         name: "Karan Thakkar",
         role: "Embedded Lead - Firmware",
-        image: "/placeholder.svg",
+        image: "/headshots/karan_thakkar.jfif",
         linkedin: "https://www.linkedin.com/in/johndoe/",
       },
       {
