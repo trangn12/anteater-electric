@@ -169,7 +169,7 @@ export default function SponsorsPage() {
         {/* Sponsorship Tiers */}
         <section className="py-16 bg-vintage-white">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold text-center mb-12">
+            <h2 className="subsection-title text-3xl font-bold text-center mb-12">
               SPONSORSHIP OPPORTUNITIES
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -207,7 +207,7 @@ export default function SponsorsPage() {
         {/* Current Sponsors */}
         <section className="py-16 bg-vintage-lightgray">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold text-center mb-12">
+            <h2 className="subsection-title text-3xl font-bold text-center mb-12">
               OUR CURRENT SPONSORS
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
@@ -237,7 +237,7 @@ export default function SponsorsPage() {
         {/* Become a Sponsor CTA */}
         <section className="py-16 bg-[#f5f5f5] text-black">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="section-title text-3xl font-bold mb-6">
+            <h2 className="subsection-title text-3xl font-bold mb-6">
               BECOME A SPONSOR
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">

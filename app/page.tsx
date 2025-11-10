@@ -173,7 +173,7 @@ export default function Home() {
         <section className="py-20 bg-vintage-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="section-title text-5xl font-bold mb-4">
+              <h2 className="subsection-title text-5xl font-bold mb-4">
                 INNOVATE. ENGINEER. COMPETE.
               </h2>
               <p className="text-xl text-vintage-navy">
@@ -246,7 +246,7 @@ export default function Home() {
         {/* News Section */}
         <section className="py-16 bg-vintage-lightgray">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold mb-8">
+            <h2 className="subsection-title text-3xl font-bold mb-8">
               LATEST NEWS
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -284,7 +284,7 @@ export default function Home() {
         <section className="py-20 bg-vintage-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="section-title text-4xl font-bold mb-4">
+              <h2 className="subsection-title text-4xl font-bold mb-4">
                 SUPPORT OUR TEAM
               </h2>
               <p className="text-xl text-vintage-navy">
@@ -340,7 +340,7 @@ export default function Home() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h2 className="section-title text-4xl font-bold mb-6">
+                  <h2 className="subsection-title text-4xl font-bold mb-6">
                     JOIN OUR ENGINEERING TEAM
                   </h2>
                   <p className="text-xl mb-8">

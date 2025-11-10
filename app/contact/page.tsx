@@ -39,7 +39,7 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Contact Form */}
               <div>
-                <h2 className="section-title text-2xl font-semibold mb-6">
+                <h2 className="subsection-title text-2xl font-semibold mb-6">
                   GET IN TOUCH
                 </h2>
                 <form className="space-y-4">
@@ -114,7 +114,7 @@ export default function ContactPage() {
 
               {/* Contact Information */}
               <div>
-                <h2 className="section-title text-2xl font-semibold mb-6">
+                <h2 className="subsection-title text-2xl font-semibold mb-6">
                   CONTACT INFORMATION
                 </h2>
                 <div className="space-y-4">
@@ -148,7 +148,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <h2 className="section-title text-2xl font-semibold mt-12 mb-6">
+                <h2 className="subsection-title text-2xl font-semibold mt-12 mb-6">
                   FOLLOW US
                 </h2>
                 <div className="flex space-x-4">
@@ -167,7 +167,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="mt-12">
-                  <h2 className="section-title text-2xl font-semibold mb-6">
+                  <h2 className="subsection-title text-2xl font-semibold mb-6">
                     LOCATION
                   </h2>
                   <div className="aspect-w-16 aspect-h-9 vintage-box-shadow rounded-lg overflow-hidden">

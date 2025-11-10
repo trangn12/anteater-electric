@@ -223,7 +223,7 @@ export default function SubteamsPage() {
         {/* Subteams Detail Section */}
         <section className="py-20 bg-vintage-lightgray">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl font-bold text-center mb-16">
+            <h2 className="subsection-title text-3xl font-bold text-center mb-16">
               SUBTEAM DETAILS
             </h2>
 
@@ -276,7 +276,7 @@ export default function SubteamsPage() {
         {/* Join the Team Section */}
         <section className="py-16 bg-[#f5f5f5] text-black">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="section-title text-3xl font-bold mb-6">
+            <h2 className="subsection-title text-3xl font-bold mb-6">
               JOIN OUR TEAM
             </h2>
             <p className="text-black max-w-2xl mx-auto mb-8">

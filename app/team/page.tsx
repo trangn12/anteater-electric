@@ -243,7 +243,7 @@ export default function TeamPage() {
       <main className="flex-grow pt-16">
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
-            <h1 className="section-title text-4xl font-bold text-center mb-12">
+            <h1 className="subsection-title text-4xl font-bold text-center mb-12">
               OUR TEAM
             </h1>
             {subteams.map((subteam) => (
@@ -266,7 +266,7 @@ export default function TeamPage() {
                       />
                     )}
                   </div>
-                  <h2 className="section-title text-3xl font-bold">
+                  <h2 className="subsection-title text-3xl font-bold">
                     {subteam.name.toUpperCase()} TEAM
                   </h2>
                 </div>
