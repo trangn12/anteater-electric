@@ -97,32 +97,32 @@ const studentBenefits = [
 ];
 
 export default function Home() {
-  const newsItems = [
-    {
-      id: 1,
-      title: "Exciting Development 1",
-      description:
-        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
-      image: "/placeholder-news.png",
-      link: "/news/chassis-update",
-    },
-    {
-      id: 2,
-      title: "Exciting Development 2",
-      description:
-        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
-      image: "/placeholder-news.png",
-      link: "/news/electrical-integration",
-    },
-    {
-      id: 3,
-      title: "Exciting Development 3",
-      description:
-        "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
-      image: "/placeholder-news.png",
-      link: "/news/testing-begins",
-    },
-  ];
+  // const newsItems = [
+  //   {
+  //     id: 1,
+  //     title: "Exciting Development 1",
+  //     description:
+  //       "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+  //     image: "/placeholder-news.png",
+  //     link: "/news/chassis-update",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Exciting Development 2",
+  //     description:
+  //       "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+  //     image: "/placeholder-news.png",
+  //     link: "/news/electrical-integration",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Exciting Development 3",
+  //     description:
+  //       "Our team has made significant progress in the design and construction of our latest racing vehicle. Stay tuned for more updates!",
+  //     image: "/placeholder-news.png",
+  //     link: "/news/testing-begins",
+  //   },
+  // ];
   return (
     <div className="flex flex-col min-h-screen bg-vintage-white">
       <Header />
@@ -243,7 +243,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* News Section */}
+        {/* News Section
         <section className="py-16 bg-vintage-lightgray">
           <div className="container mx-auto px-4">
             <h2 className="subsection-title text-3xl font-bold mb-8">
@@ -278,7 +278,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Sponsor Section */}
         <section className="py-20 bg-vintage-white">
