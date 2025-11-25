@@ -6,6 +6,7 @@ import {
   Mail,
   Instagram,
   Linkedin,
+  Music2,
 } from "lucide-react";
 import Image from "next/image";
 
@@ -163,6 +164,12 @@ export default function ContactPage() {
                     className="text-vintage-orange hover:text-vintage-red transition-colors"
                   >
                     <Linkedin className="w-6 h-6" />
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@anteaterelectricracing"
+                    className="text-vintage-orange hover:text-vintage-red transition-colors"
+                  >
+                    <Music2 className="w-6 h-6" />
                   </a>
                 </div>
 

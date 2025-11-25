@@ -27,6 +27,12 @@ export function Footer() {
               >
                 LinkedIn
               </a>
+              <a
+                href="https://www.tiktok.com/@anteaterelectricracing"
+                className="text-vintage-white hover:text-vintage-yellow transition-colors"
+              >
+                TikTok
+              </a>
             </div>
           </div>
         </div>
