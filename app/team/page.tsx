@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
+import { link } from "fs";
 
 const subteams = [
   {
@@ -26,12 +27,18 @@ const subteams = [
     name: "Aerodynamics",
     logo: "/subteam-logos/aero_patch.png",
     lead: {
-      name: "Adityan Vairavel",
+      name: "Alexander Sadigursky",
       role: "Aerodynamics Lead",
-      image: "/headshots/adityan_vairavel.jpg",
-      linkedin: "https://www.linkedin.com/in/adityan-v/",
+      image: "/headshots/alexander_sadigursky.jpg",
+      linkedin: "https://www.linkedin.com/in/sadigursky/",
     },
     members: [
+      {
+        name: "Dylan Richcreek",
+        role: "Aerodynamics Co-Lead",
+        image: "/headshots/dylan_gene_richcreek.jpg",
+        linkedin: "https://www.linkedin.com/in/dylan-richcreek-3a40062a6/",
+      },
       {
         name: "Manav Anand",
         role: "Senior Aerobody Engineer",
@@ -186,7 +193,18 @@ const subteams = [
       linkedin: "https://www.linkedin.com/in/nuhakhan24/",
     },
     members: [
-      //
+      {
+        name: "Trang Nguyen",
+        role: "Webmaster",
+        image: "/headshots/trang_nguyen.jpg",
+        linkedin: "https://www.linkedin.com/in/trangn12/",
+      },
+      {
+        name: "Anna Lee",
+        role: "Webdeveloper",
+        image: "/headshots/anna_lee.jpg",
+        linkedin: "https://www.linkedin.com/in/anna-lee-ab7383257/",
+      }
     ],
   },
   {
