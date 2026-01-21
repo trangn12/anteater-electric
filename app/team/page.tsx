@@ -201,10 +201,10 @@ const subteams = [
       },
       {
         name: "Anna Lee",
-        role: "Webdeveloper",
+        role: "Web developer",
         image: "/headshots/anna_lee.jpg",
         linkedin: "https://www.linkedin.com/in/anna-lee-ab7383257/",
-      }
+      },
     ],
   },
   {
@@ -233,8 +233,7 @@ function MemberCard({ name, role, image, linkedin }) {
       href={linkedin}
       target="_blank"
       rel="noopener noreferrer"
-      className="group"
-    >
+      className="group">
       <div className="bg-vintage-white rounded-lg shadow-md overflow-hidden transition-transform group-hover:scale-105 vintage-box-shadow">
         <div className="relative h-60 w-full">
           <Image
