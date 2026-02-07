@@ -109,7 +109,7 @@ const subteamDetails = [
   {
     name: "Embedded",
     description:
-      "The Embedded subteam is responsible for all the software and firmware development on the car. Embedded members will be using various microcontrollers to collect data from across the car, control the motor output and ensure that the car is safely and properly functioning. The embedded team will also be designing a system to wirelessly send and display diagnostic data for other teams to use.",
+      "AER's embedded subteam is responsible for everything that happens inside the racecar before the data ever reaches a screen. This includes designing how sensors and electronics work together, writing the code that acts as the device’s brain, and make sure the system reliably collects, processes, and sends information. We ensure the hardware can communicate correctly with the driver, the pit wall and the rest of the car, so that our mechanical teams can use the data and iterate on their designs. More recently, our team is working on a simulator to test code before we even have the electronics wired up - this saves time in the development cycle as we can flush out bugs before hardware exists.",
     image: "/subteam-photos/embedded_photo.jpg",
     alignment: "left",
     logo: "/subteam-logos/embedded_patch.png",
@@ -196,8 +196,7 @@ export default function SubteamsPage() {
                 return (
                   <div
                     key={team.name}
-                    className="flex flex-col items-center gap-2 p-4 bg-vintage-lightgray rounded-lg vintage-box-shadow"
-                  >
+                    className="flex flex-col items-center gap-2 p-4 bg-vintage-lightgray rounded-lg vintage-box-shadow">
                     {team.logo ? (
                       <div className="relative w-24 h-24 mb-2">
                         <Image
@@ -235,8 +234,7 @@ export default function SubteamsPage() {
                     team.alignment === "right"
                       ? "md:flex-row-reverse"
                       : "md:flex-row"
-                  } gap-8 items-center`}
-                >
+                  } gap-8 items-center`}>
                   <div className="w-full md:w-1/2">
                     <div className="relative aspect-video rounded-lg overflow-hidden vintage-box-shadow">
                       <Image
@@ -287,14 +285,12 @@ export default function SubteamsPage() {
             <div className="flex gap-4 justify-center">
               <a
                 href="/contact"
-                className="inline-block bg-vintage-orange text-vintage-white px-8 py-3 rounded-md font-semibold hover:bg-vintage-red transition-colors vintage-box-shadow"
-              >
+                className="inline-block bg-vintage-orange text-vintage-white px-8 py-3 rounded-md font-semibold hover:bg-vintage-red transition-colors vintage-box-shadow">
                 Apply Now
               </a>
               <a
                 href="/contact"
-                className="inline-block bg-vintage-orange text-vintage-white px-8 py-3 rounded-md font-semibold hover:bg-vintage-red transition-colors vintage-box-shadow"
-              >
+                className="inline-block bg-vintage-orange text-vintage-white px-8 py-3 rounded-md font-semibold hover:bg-vintage-red transition-colors vintage-box-shadow">
                 Sponsor Us
               </a>
             </div>
