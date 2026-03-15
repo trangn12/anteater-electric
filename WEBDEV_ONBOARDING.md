@@ -5,112 +5,172 @@ You should be able to contribute in under 30 minutes.
 
 ---
 
-## 🛠 Tech Stack
-- Next.js
+# 🛠 Tech Stack
+
+- Next.js 15
+- React 19
 - TypeScript
 - Tailwind CSS
-- pnpm (package manager)
+- npm (package manager)
 
 Main folders:
-- `app/` → Pages & routing (App Router)
+
+- `app/` → Pages & routing (Next.js App Router)
 - `components/` → Reusable UI components
 - `public/` → Images & static files
 - `styles/` → Global styles
 
 ---
 
-## ✅ Step 1: Install Prerequisites
+# ✅ Step 1: Install Prerequisites
 
 Install:
-- Node.js (LTS recommended)
-- pnpm
+
+- Node.js (v22 recommended)
 - Git
+- VSCode (recommended)
 
 Check versions:
 
 node -v  
-pnpm -v  
+npm -v  
+
+Expected:
+
+Node ≥ 22  
+npm ≥ 10  
 
 ---
 
-## 🚀 Step 2: Clone + Run
+# 🚀 Step 2: Clone + Run
 
 Clone the repo:
 
 git clone <REPO_URL>  
-cd <REPO_FOLDER>  
+cd anteater-electric  
 
 Install dependencies:
 
-pnpm install  
+npm install  
 
 Start development server:
 
-pnpm dev  
+npm run dev  
 
 Open in browser:
 
-http://localhost:3000  
+http://localhost:3000
 
 ---
 
-## 📜 Available Commands
+# 📜 Available Commands
 
-pnpm dev      → Run locally  
-pnpm build    → Production build test  
-pnpm start    → Start production server  
-pnpm lint     → Check code quality  
+npm run dev      → Run locally  
+npm run build    → Production build test  
+npm run start    → Start production server  
+npm run lint     → Check code quality  
 
 ---
 
-## 🌿 Branching Rules
+# 🌿 Branching Rules
 
-Always create a new branch:
+Always create a new branch before making changes.
+
+Branch formats:
 
 feature/<short-description>  
 fix/<short-description>  
 
 Example:
-feature/update-homepage-hero  
+
+feature/update-homepage-hero
 
 ---
 
-## 🔁 Pull Request Rules
+# 🔁 Pull Request Rules
 
 Keep PRs small and focused.
 
 Include:
+
 - What you changed
 - Why you changed it
 - Screenshots (for UI updates)
 
-Before submitting:
-- Run pnpm dev
-- Run pnpm lint
-- Check mobile view
+Before submitting a PR:
+
+Run the site locally:
+
+npm run dev  
+
+Check lint:
+
+npm run lint  
+
+Test mobile view.
 
 ---
 
-## 🧪 First Tasks for New Members
+# 🧪 First Tasks for New Members
 
 Pick ONE:
 
 1. Change text on a page inside `app/`
-2. Add a small reusable component in `components/`
-3. Add an image to `public/` and use it on a page
+2. Add a reusable component in `components/`
+3. Add an image to `public/` and display it on a page
 4. Fix spacing/layout issue for mobile
 
-Goal: Make 1 clean PR within your first week.
+Goal: Make **1 clean PR within your first week.**
 
 ---
 
-## 🛠 Troubleshooting
+# 🛠 Troubleshooting
 
-If install fails:
+### If install fails
 
-Delete node_modules and reinstall:
+Delete dependencies and reinstall.
 
-rm -rf node_modules  
-pnpm install  
+Mac/Linux:
 
-If Node version issues occur, install the correct version using nvm.
+rm -rf node_modules
+rm package-lock.json
+npm install
+
+Windows PowerShell:
+
+Remove-Item node_modules -Recurse -Force
+Remove-Item package-lock.json -Force
+npm install
+
+---
+
+### If Node version issues occur
+
+Install the correct version using **nvm**.
+
+Recommended version:
+
+Node 22
+
+---
+
+### If dependencies conflict
+
+Run:
+
+npm ls
+
+This shows which packages depend on each other.
+
+---
+
+# 💡 Tips
+
+Images must be placed inside:
+
+public/
+
+Example usage:
+
+```jsx
+<img src="/images/car.jpg" />

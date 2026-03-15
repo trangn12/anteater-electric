@@ -92,7 +92,7 @@ const subteams = [
       {
         name: "Dom Serrano",
         role: "Assistant Lead",
-        image: "/placeholder.svg",
+        image: "/engineer_placeholder.jpg",
         linkedin: "https://www.linkedin.com/in/johndoe",
       },
       {
@@ -104,26 +104,7 @@ const subteams = [
     ],
   },
   {
-    name: "Breaks",
-    logo: "/subteam-logos/suspension_patch.png",
-    logoPosition: "0 0 341 341",
-    lead: {
-      name: "Walter Ramirez",
-      role: "Brakes Lead",
-      image: "/placeholder.svg",
-      linkedin: "https://www.linkedin.com/in/johndoe",
-    },
-    members: [
-      {
-        name: "Diego Martinez",
-        role: "Brakes Lead",
-        image: "/placeholder.svg",
-        linkedin: "https://www.linkedin.com/in/johndoe",
-      },
-    ],
-  },
-  {
-    name: "Electrical",
+    name: "Electronics",
     logo: "/subteam-logos/electronics_patch.png",
     lead: {
       name: "Gabriel Schoene",
@@ -227,7 +208,7 @@ const subteams = [
   },
 ];
 
-function MemberCard({ name, role, image, linkedin }) {
+function MemberCard({ name, role, image, linkedin }: { name: string; role: string; image?: string; linkedin: string }) {
   return (
     <Link
       href={linkedin}
@@ -239,8 +220,8 @@ function MemberCard({ name, role, image, linkedin }) {
           <Image
             src={image || "/placeholder.svg"}
             alt={name}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="transition-opacity group-hover:opacity-80"
           />
         </div>

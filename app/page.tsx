@@ -188,7 +188,7 @@ export default function Home() {
                 className="group relative overflow-hidden rounded-xl aspect-[4/3] vintage-box-shadow"
               >
                 <Image
-                  src="/images/socalshootout_team_crop.jpg?height=800&width=1200"
+                  src="/images/socalshootout_team_crop.jpg"
                   alt="UCI FSAE Team"
                   fill
                   className="object-cover transition-transform group-hover:scale-105"

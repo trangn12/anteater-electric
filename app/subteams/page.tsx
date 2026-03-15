@@ -160,8 +160,8 @@ export default function SubteamsPage() {
           <Image
             src="/images/leads_crop.jpg"
             alt="UCI FSAE Subteams"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="opacity-70"
           />
           <div className="absolute inset-0 bg-black/30" />
@@ -240,8 +240,8 @@ export default function SubteamsPage() {
                       <Image
                         src={team.image || "/placeholder.svg"}
                         alt={`${team.name} Team at work`}
-                        layout="fill"
-                        objectFit="cover"
+                        fill
+                        style={{ objectFit: "cover" }}
                       />
                     </div>
                   </div>

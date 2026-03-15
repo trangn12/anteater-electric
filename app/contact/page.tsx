@@ -20,8 +20,8 @@ export default function ContactPage() {
           <Image
             src="/images/socalshootout_carempty_crop.jpg"
             alt="Contact UCI FSAE Electric"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="opacity-70"
           />
           <div className="absolute inset-0 bg-black/30" />
@@ -183,7 +183,7 @@ export default function ContactPage() {
                       width="600"
                       height="450"
                       style={{ border: 0 }}
-                      allowFullScreen=""
+                      allowFullScreen={true}
                       loading="lazy"
                       className="w-full h-full rounded-lg"
                     ></iframe>

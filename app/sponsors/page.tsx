@@ -149,8 +149,8 @@ export default function SponsorsPage() {
           <Image
             src="/images/staring_crop.jpg"
             alt="UCI FSAE Sponsors"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="opacity-70"
           />
           <div className="absolute inset-0 bg-black/30" />

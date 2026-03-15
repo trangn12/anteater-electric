@@ -68,8 +68,8 @@ export default function AboutPage() {
           <Image
             src="/images/socalshootout_lonecar.jpg?height=1080&width=1920&text=UCI+FSAE+Team+in+Action"
             alt="UCI FSAE Team in Action"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             className="opacity-70"
           />
           <div className="absolute inset-0 bg-black/30" />
