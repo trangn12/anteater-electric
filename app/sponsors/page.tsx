@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { Trophy, Award, Medal, Check } from "lucide-react";
+import { Trophy, Check } from "lucide-react";
 
 const sponsorTiers = [
   {
