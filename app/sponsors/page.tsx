@@ -108,9 +108,9 @@ const currentSponsors = [
     logo: "/sponsor-logos/acpcomposites_logo.png",
   },
   {
-    name: "Coastal Enterprises",
+    name: "Curbell Plastics",
     tier: "Silver",
-    logo: "/sponsor-logos/coastalenterprisesprecisionboard_logo.png",
+    logo: "/sponsor-logos/curbell_logo.jpg",
   },
   {
     name: "Textile Products Inc.",
