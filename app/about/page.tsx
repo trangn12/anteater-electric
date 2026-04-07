@@ -158,9 +158,8 @@ export default function AboutPage() {
               JOIN OUR TEAM
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Are you passionate about electric vehicles, motorsports, or
-              engineering innovation? Join UCI Formula SAE and be part of the
-              future of sustainable racing technology!
+              Are you passionate about electric vehicles, motorsports, or engineering innovation? 
+              Join UCI Formula SAE and help shape the future of sustainable racing.
             </p>
             <div className="flex gap-4 justify-center">
               <a
