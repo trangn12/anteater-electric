@@ -143,7 +143,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-vintage-navy">Email</h3>
                       <p className="text-vintage-navy">
-                        electric.anteaterracing@gmail.com
+                        anteaterelectricracing@gmail.com
                       </p>
                     </div>
                   </div>

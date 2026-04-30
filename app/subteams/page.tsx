@@ -14,7 +14,7 @@ import {
 
 const subteamIcons = [
   {
-    name: "Accumulator",
+    name: "Battery",
     icon: Box,
     logo: "/subteam-logos/accumulator_patch.png",
     //logoPosition: "0 0 341 341", // Position for the first logo
@@ -71,9 +71,9 @@ const subteamIcons = [
 
 const subteamDetails = [
   {
-    name: "Accumulator",
+    name: "Battery",
     description:
-      "The Accumulator subteam develops the physical housing, thermal solution, and the wiring for the energy storage system (ESS) that powers the vehicle from the cell level up. This team also designs and manufactures a specialized hand cart to lift the battery into the chassis of the vehicle.",
+      "The Battery subteam develops the physical housing, thermal solution, and the wiring for the energy storage system (ESS) that powers the vehicle from the cell level up. This team also designs and manufactures a specialized hand cart to lift the battery into the chassis of the vehicle.",
     image: "/subteam-photos/accumulator_photo_crop.jpg",
     alignment: "left",
     logo: "/subteam-logos/accumulator_patch.png",

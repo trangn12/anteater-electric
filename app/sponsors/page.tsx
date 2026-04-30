@@ -73,7 +73,7 @@ const currentSponsors = [
     logo: "/sponsor-logos/welshadvisors_logo.png",
   },
   {
-    name: "Parker",
+    name: "Parker Lord",
     tier: "Platinum",
     logo: "/sponsor-logos/parkerhannifin_logo.png",
   },
